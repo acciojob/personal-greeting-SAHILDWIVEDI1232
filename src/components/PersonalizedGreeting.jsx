@@ -11,7 +11,7 @@ const PersonalizedGreeting = () => {
         onChange={(e) => setName(e.target.value)}
       />
 
-      {name.trim() !== "" && <p>Hello, {name}!</p>}
+      {name.trim() !== "" && <p>Hello {name}!</p>}
     </div>
   );
 };

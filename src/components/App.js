@@ -1,7 +1,7 @@
 
 import React from "react";
 import './../styles/App.css';
-import PersonalizedGreeting from "./components/PersonalizedGreeting";
+import PersonalizedGreeting from "./PersonalizedGreeting";
 const App = () => {
   return (
     <div>
